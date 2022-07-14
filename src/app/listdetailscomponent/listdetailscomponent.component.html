@@ -1,0 +1,18 @@
+<div>
+    <div class="container">
+        <div class="containerchild">
+            <div>
+                <img src="{{data?.image}}" alt="" width="250" height="250">
+            </div>
+            <div>
+                <h2 class="title">{{data?.title}}</h2>
+                <p class="category">{{data?.category}}</p>
+                <p class="description">{{data?.description}}</p>
+                <p class="price">{{data?.price | currency}}</p>
+            </div>
+        </div>
+    </div>
+    <div style="margin: auto;">
+        <button (click)="goBack()" class="btn">Go Back</button>
+    </div>
+</div>

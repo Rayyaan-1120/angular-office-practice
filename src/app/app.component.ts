@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world';
+
+  parentdata: String = "This is from parent"
+  childarray:Array<String>;
 }

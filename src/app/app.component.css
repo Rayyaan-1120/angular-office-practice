@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #3A3845;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+    min-height:8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainheading{
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    background-color: #F7CCAC;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.navlink{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navlinkactive{
+    color: #826F66;
+}

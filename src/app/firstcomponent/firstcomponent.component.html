@@ -1,0 +1,107 @@
+<div>
+    <!-- property binding  -->
+  
+    <!-- <p [class]="myclass">
+      {{"Welcome " + textproperty}}
+    </p> -->
+  
+    <!-- interploation -->
+  
+    <!-- <p [class.text-red]="hasError">
+      {{10 + 10 + 20}}
+    </p>
+    <p>
+      {{textproperty.length}}
+    </p> -->
+  
+    <!-- class binding -->
+  
+    <!-- <p [ngClass]="messageclasses">
+      {{"Welcome " + textproperty}}
+    </p> -->
+    <!-- <p class="text-red">
+      {{hasError ? "There is an error" : ""}}
+    </p> -->
+  
+    <!-- event binding  -->
+  
+    <!-- <button (click)="onclick()" class="btn">Click me</button>
+    <input (keyup)="oninputchange($event.target.value)" value="{{inputvalue}}">
+  
+    <p>this is the {{inputvalue}}</p> -->
+  
+    <!-- two way data binding  -->
+  
+    <!-- <input type="text" [(ngModel)]="name">
+    <p>{{name}}</p> -->
+  
+    <!-- structure directives if else  -->
+  
+    <!-- <h2 *ngIf="render">This will render on true</h2>
+    <h2 *ngIf="!render">this will render on false</h2> -->
+  
+    <!-- <div *ngIf="render; else elseBlock">
+      <h2>this will render on true</h2>
+    </div>
+  
+    <ng-template #elseBlock>
+      <h2>this will render on false</h2>
+    </ng-template> -->
+  
+    <!-- structure directives switch case  -->
+  
+    <!-- <div [ngSwitch]="color">
+        <div *ngSwitchCase="'red'">You picked red color</div>
+        <div *ngSwitchCase="'blue'">You picked blue color</div>
+        <div *ngSwitchCase="'green'">You picked green color</div>
+        <div *ngSwitchDefault>Pick again</div>
+    </div> -->
+
+    <!-- structure directives for loop  -->
+
+     <!-- <ul>
+      <li *ngFor="let fruit of fruits; last as l">
+       {{l}} {{fruit}}
+       <div [ngSwitch]="fruit">
+        <div *ngSwitchCase="'apple'">{{fruit}}</div>
+        <div *ngSwitchCase="'orange'">{{fruit}}</div>
+        <div *ngSwitchCase="'grape'">{{fruit}}</div>
+        <div *ngSwitchDefault>Pick again</div>
+       </div>
+      </li>
+      </ul> -->
+
+      <!-- accessing parent data using Input -->
+
+       <!-- <h2>{{parentData}}</h2> -->
+
+        <!-- sending child data using Output -->
+
+       <!-- <button class="btn btn-primary"(click)="fireoutputevent()">Send Event</button> -->
+  
+  
+    <!-- Pipes -->
+
+    <!-- <p>{{name | uppercase}}</p>
+    <p>{{name | lowercase}}</p>
+    <p>{{name | titlecase}}</p>
+    <p>{{name | slice:3:5}}</p>
+    <p>{{name | slice:3}}</p>
+
+    <p>{{0.25 | percent}}</p> 
+
+    <p>{{25 | currency}}</p>
+    <p>{{25 | currency:"GBP"}}</p>
+
+    <p>{{date | date:'short'}}</p>
+    <p>{{date | date:'shortDate'}}</p>
+    <p>{{date | date:'shortTime'}}</p>
+    <p>{{date | date:'medium'}}</p>
+    <p>{{date | date:'mediumDate'}}</p>
+    <p>{{date | date:'mediumTime'}}</p>
+    <p>{{date | date:'long'}}</p>
+    <p>{{date | date:'longDate'}}</p>
+    <p>{{date | date:'longTime'}}</p> -->
+
+
+  </div>

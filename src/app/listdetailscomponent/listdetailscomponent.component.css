@@ -1,0 +1,75 @@
+.container{
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.containerchild{
+    max-width: 70%;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+
+    font-size:2.5rem;
+    color: #3A3845;
+    margin: 6px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.category{
+    margin: 3px 0px;
+    color: #3A3845;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+.description{
+    margin: 6px 0px;
+    color: #3A3845;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.price{
+    padding: 1rem;
+    background-color: #F7CCAC;
+    border-radius: 3px;
+    font-weight: bold;
+    width: 120px;
+    font-size: 1.3rem !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 2px 0px;
+    text-align: center;
+}
+
+.btn {
+    padding: 1.2rem;
+    background-color: #F7CCAC;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    font-size: 1.3rem !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .containerchild{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .containerchild{
+        flex-direction: column;
+    }
+}
